@@ -1,0 +1,7 @@
+D:\c#code\西二作业：“作业的重要性”\西二作业：“作业的重要性”\obj\Debug\西二作业：“作业的重要性”.csprojAssemblyReference.cache
+D:\c#code\西二作业：“作业的重要性”\西二作业：“作业的重要性”\obj\Debug\西二作业：“作业的重要性”.csproj.CoreCompileInputs.cache
+D:\c#code\西二作业：“作业的重要性”\西二作业：“作业的重要性”\bin\Debug\西二作业：“作业的重要性”.exe.config
+D:\c#code\西二作业：“作业的重要性”\西二作业：“作业的重要性”\bin\Debug\西二作业：“作业的重要性”.exe
+D:\c#code\西二作业：“作业的重要性”\西二作业：“作业的重要性”\bin\Debug\西二作业：“作业的重要性”.pdb
+D:\c#code\西二作业：“作业的重要性”\西二作业：“作业的重要性”\obj\Debug\西二作业：“作业的重要性”.exe
+D:\c#code\西二作业：“作业的重要性”\西二作业：“作业的重要性”\obj\Debug\西二作业：“作业的重要性”.pdb

@@ -25,8 +25,6 @@ namespace 西二作业__作业的重要性_
             I.MP = 10;
             I.HP = 15;
             Console.WriteLine("游戏正在载入中");
-            Console.ReadKey();
-            Console.Clear();
             Console.WriteLine("--------------------------------------");
             Console.WriteLine("可怜的{0}，你是福州大学的一名计算机大一新生，",I.playername);
             Console.WriteLine("参加了西二在线的考核，");
@@ -53,8 +51,6 @@ namespace 西二作业__作业的重要性_
                 I.MP = 20;
                 I.HP = 30;
                 Console.WriteLine("-----------------------------------");
-                Console.ReadKey();
-                Console.Clear();
                 Console.WriteLine("第一关：");
                 Console.WriteLine("在你面前的是一只小怪，只有打败他你才能获得进入下一关的权利，加油鸭勇者！(按任意键继续)");Console.ReadKey();
                                                           //创建一只新的普通小怪
@@ -99,15 +95,11 @@ namespace 西二作业__作业的重要性_
                 }
                 if (I.HP == 0||Flag==1)
                 {
-                    Console.ReadKey();
-                    Console.Clear();
                     Console.WriteLine("Game Over!");
                 }
                  
                 else if (a1.HP == 0)
                 {
-                    Console.ReadKey();
-                    Console.Clear();
                     Console.WriteLine("Congratulations!通过了第一关的考验，奖励你提升2级（接下来的一关太过险峻，我只能帮你到这了）。但这只是一只小小的炮灰，勇者啊，后面还有更严峻的考验等着你，你确定要进入下一关吗？");
                     Console.WriteLine("1 Yes    2 Yes");
                     Console.WriteLine("你已经无路可退了呢，微笑.jpg");
@@ -116,9 +108,7 @@ namespace 西二作业__作业的重要性_
                     I.level+=2;
                     I.MP = 80;
                     I.HP = 70;
-                    Console.WriteLine("-----------------------------------------(按任意键继续)");
-                    Console.ReadKey();
-                    Console.Clear();
+                    Console.WriteLine("-----------------------------------------(按任意键继续)");Console.ReadKey();
                     Console.WriteLine("欢迎来到第二关");
                     Console.WriteLine("在这一关,你将面对三只怪物，他们有着不同的技能，请合理规划你的释放技能顺序，否则你可能会死哦");
                     
@@ -241,8 +231,6 @@ namespace 西二作业__作业的重要性_
                     }
                     if (I.HP > 0)
                     {
-                        Console.ReadKey();
-                        Console.Clear();
                         Console.WriteLine("Congratulations!通过了第二关的考验，奖励你提升1级，并获得一颗草药");
                         Console.WriteLine("level up");
                         I.level++;
@@ -328,8 +316,6 @@ namespace 西二作业__作业的重要性_
                         }
                         if (Boss.HP == 0)
                         {
-                            Console.ReadKey();
-                            Console.Clear();
                             Console.WriteLine("黑衣人：噗--------，怎么可能，你，你竟然打败了我，不可能啊-----------");
                             Console.WriteLine("你现在想知道黑衣人的身份吗：1想     2不想");
                             choice = Convert.ToInt32(Console.ReadLine());
@@ -345,22 +331,16 @@ namespace 西二作业__作业的重要性_
                             }
                             else
                             {
-                                Console.ReadKey();
-                                Console.Clear();
                                 Console.WriteLine("恭喜你成功从装死的黑衣人身上拿到了作业，通过了考验！");
                             }
                         }
                         else
                         {
-                            Console.ReadKey();
-                            Console.Clear();
                             Console.WriteLine("Game over!");
                         }
                     }
                     else
                     {
-                        Console.ReadKey();
-                        Console.Clear();
                         Console.WriteLine("Game Over!");
                     }
                 }
